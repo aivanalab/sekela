@@ -14,3 +14,9 @@ frontend/dist/
 # Environment
 .env
 *.env.local
+node_modules/
+dist/
+dist-ssr/
+*.local
+frontend/.env
+backend/.env
