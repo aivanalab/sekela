@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from .. import database, models
+import database, models
 from collections import Counter
 
 router = APIRouter(prefix="/insights", tags=["Insights"])

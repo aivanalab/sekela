@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from . import models, schemas
+import models, schemas
 from typing import List
 
 def get_universities(db: Session, skip: int = 0, limit: int = 100):
