@@ -1,12 +1,12 @@
 # 🇹🇿 Tanzania University Explorer
 
 <p align="center">
-    <a href="https://github.com/zuck30/Tanzania-University-Explorer"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
+    <a href="https://github.com/zuck30/Sekela"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-FF1493.svg"></a>
-    <a href="https://github.com/zuck30/Tanzania-University-Explorer/graphs/contributors"><img src="https://img.shields.io/github/contributors/zuck30/Tanzania-University-Explorer?color=blue"></a>
-    <a href="https://github.com/zuck30/Tanzania-University-Explorer/stargazers"><img src="https://img.shields.io/github/stars/zuck30/Tanzania-University-Explorer.svg?logo=github"></a>
-    <a href="https://github.com/zuck30/Tanzania-University-Explorer/network/members"><img src="https://img.shields.io/github/forks/zuck30/Tanzania-University-Explorer.svg?color=blue&logo=github"></a>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=zuck30.Tanzania-University-Explorer" alt="visitors"/>   
+    <a href="https://github.com/zuck30/Sekela/graphs/contributors"><img src="https://img.shields.io/github/contributors/zuck30/Sekela?color=blue"></a>
+    <a href="https://github.com/zuck30/Sekela/stargazers"><img src="https://img.shields.io/github/stars/zuck30/Sekela.svg?logo=github"></a>
+    <a href="https://github.com/zuck30/Sekela/network/members"><img src="https://img.shields.io/github/forks/zuck30/Sekela.svg?color=blue&logo=github"></a>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=zuck30.Sekela" alt="visitors"/>   
 </p>
 
 
@@ -21,7 +21,7 @@
 </div>
 
 <br>
-<a href="https://github.com/zuck30/Tanzania-University-Explorer"> <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRkN2V0amFnMW55c2kzeW1jMW9xd3lyeDVhdDRwNHc2b3ZxbGNheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="40%" align="right" style="border-radius:10px; animation: float 6s ease-in-out infinite;" alt="Coding GIF">
+<a href="https://github.com/zuck30/Sekela"> <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRkN2V0amFnMW55c2kzeW1jMW9xd3lyeDVhdDRwNHc2b3ZxbGNheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="40%" align="right" style="border-radius:10px; animation: float 6s ease-in-out infinite;" alt="Coding GIF">
   </a>
 
 <ul>
