@@ -91,7 +91,7 @@ export default function HomePage() {
               
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
                 <span className="block bg-gradient-to-r from-emerald-600 via-green-500 to-yellow-500 bg-clip-text text-transparent">
-                  SekelaAI
+                  sekela
                 </span>
                 <span className="block text-gray-900 mt-2">
                   University Guide
@@ -158,7 +158,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Why Choose SekelaAI?
+              Why Choose sekela?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We combine cutting-edge technology with comprehensive data to help you make the best educational decisions
