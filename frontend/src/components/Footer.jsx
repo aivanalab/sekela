@@ -15,7 +15,7 @@ export default function Footer() {
   ];
 
   const contactInfo = [
-    { icon: EnvelopeIcon, label: 'Email', value: 'info@sekelaai.co.tz', href: 'mailto:info@sekelaai.co.tz' },
+    { icon: EnvelopeIcon, label: 'Email', value: 'info@sekela.co.tz', href: 'mailto:info@sekela.co.tz' },
     { icon: PhoneIcon, label: 'Phone', value: '+255 760 984 921', href: 'tel:+255123456789' },
     { icon: MapPinIcon, label: 'Location', value: 'Dar es Salaam, Tanzania', href: 'https://maps.google.com/?q=Dar+es+Salaam,+Tanzania' }
   ];
@@ -81,7 +81,7 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
           <div className="flex flex-col sm:flex-row justify-center items-center gap-2">
             <span className="flex items-center">
-              &copy; {currentYear} SekelaAI.
+              &copy; {currentYear} sekela.
 
             </span>
             <div className="flex gap-4">
