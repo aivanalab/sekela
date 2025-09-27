@@ -10,7 +10,7 @@
 </p>
 
 
-![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Tanzania%20University%20Explorer&textBg=false&desc=(Empowering%20Education%20Choices)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
+![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Sekela%&textBg=false&desc=(Empowering%20Education%20Choices)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
 <p align="center">A comprehensive web application for exploring 30+ universities in Tanzania. Discover, compare, and make informed decisions with a smart wizard, interactive charts, and detailed profiles!</p>
 
 <h3>Quick Links</h3>
