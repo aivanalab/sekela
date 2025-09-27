@@ -1,4 +1,4 @@
-# 🇹🇿 Tanzania University Explorer
+# Sekela
 
 <p align="center">
     <a href="https://github.com/zuck30/Sekela"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
