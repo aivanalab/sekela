@@ -1,235 +1,148 @@
- # 🇹🇿 Tanzania University Explorer
+# 🇹🇿 Tanzania University Explorer
 
-A comprehensive web application for exploring universities and higher education institutions in Tanzania. This platform helps prospective students discover, compare, and make informed decisions about their university choices.
+<p align="center">
+    <a href="https://github.com/zuck30/Tanzania-University-Explorer"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-FF1493.svg"></a>
+    <a href="https://github.com/zuck30/Tanzania-University-Explorer/graphs/contributors"><img src="https://img.shields.io/github/contributors/zuck30/Tanzania-University-Explorer?color=blue"></a>
+    <a href="https://github.com/zuck30/Tanzania-University-Explorer/stargazers"><img src="https://img.shields.io/github/stars/zuck30/Tanzania-University-Explorer.svg?logo=github"></a>
+    <a href="https://github.com/zuck30/Tanzania-University-Explorer/network/members"><img src="https://img.shields.io/github/forks/zuck30/Tanzania-University-Explorer.svg?color=blue&logo=github"></a>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=zuck30.Tanzania-University-Explorer" alt="visitors"/>   
+</p>
 
-![Tanzania University Explorer](https://img.shields.io/badge/Tanzania-University%20Explorer-blue?style=for-the-badge&logo=graduation-cap)
-![Universities](https://img.shields.io/badge/Universities-30+-success?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18+-61DAFB?style=for-the-badge&logo=react)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi)
 
-## 📋 Table of Contents
+![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Tanzania%20University%20Explorer&textBg=false&desc=(Empowering%20Education%20Choices)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
+<p align="center">A comprehensive web application for exploring 30+ universities in Tanzania. Discover, compare, and make informed decisions with a smart wizard, interactive charts, and detailed profiles!</p>
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Quick Start](#-quick-start)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [API Documentation](#-api-documentation)
-- [University Data](#-university-data)
-- [Development](#-development)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
+<h3>Quick Links</h3>
 
-## ✨ Features
+<div align="left">
+    <a href="mailto:mwalyangashadrack@gmail.com"><img src="https://img.shields.io/badge/Mail%20me-30302f?style=flat-square&logo=gmail" alt="" srcset=""></a>
+    <a href="https://sheddysilicon.netlify.app"><img src="https://img.shields.io/badge/Visit%20Project-30302f?style=flat-square&logo=github" alt="" srcset=""></a>
+</div>
 
-### 🏠 **Homepage**
-- Beautiful landing page with hero section
-- Quick stats and featured universities
-- Easy navigation to all features
+<br>
+<a href="https://github.com/zuck30/Tanzania-University-Explorer"> <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmRkN2V0amFnMW55c2kzeW1jMW9xd3lyeDVhdDRwNHc2b3ZxbGNheCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="40%" align="right" style="border-radius:10px; animation: float 6s ease-in-out infinite;" alt="Coding GIF">
+  </a>
 
-### 🔍 **University Explorer**
-- Browse 30+ Tanzanian universities
-- Advanced search and filtering system
-- Filter by region, type, fees, and difficulty
-- Detailed university profiles with programs and facilities
-- Interactive university cards with comparison features
+<ul>
+    <li>💻 Explore 30+ Tanzanian Universities</li>
+    <li>🔭 Smart Wizard for Personalized Recommendations</li>
+    <li>👨‍💻 Built with React, FastAPI, and Tailwind CSS</li>
+</ul>
 
-### 📊 **Data Insights**
-- Interactive charts showing university distribution
-- Regional analysis across Tanzania
-- Public vs Private institution breakdown
-- Admission difficulty statistics
-- Real-time data visualization with ECharts
+<h2> Features</h2>
 
-### 🧙‍♀️ **Smart Wizard**
-- Personalized university recommendations
-- Step-by-step preference collection
-- Intelligent matching algorithm
-- Results ranked by compatibility
-- Detailed match explanations
+- **Homepage**: Engaging landing page with hero section, quick stats, and featured universities.
+- **University Explorer**: Browse and filter universities by region, type, fees, and difficulty. Includes detailed profiles and comparison tools.
+- **Data Insights**: Interactive charts for university distribution, regional analysis, and admission difficulty using ECharts.
+- **Smart Wizard**: Personalized recommendations via a step-by-step preference collection and intelligent matching algorithm.
+- **University Comparison**: Compare up to 4 universities side-by-side with detailed program and fee analysis.
+- **Detailed Profiles**: Comprehensive university info, including programs, facilities, admission requirements, and fees.
 
-### ⚖️ **University Comparison**
-- Side-by-side university comparison
-- Compare up to 4 universities simultaneously
-- Detailed program and facility comparison
-- Fee structure analysis
-- Easy comparison management
+<h2> Tech Stack</h2>
 
-### 🏛️ **Detailed University Profiles**
-- Comprehensive university information
-- Program listings with duration and prospects
-- Facility information and campus details
-- Admission requirements and procedures
-- Fee structures and financial information
+**Frontend**
 
-## 🛠 Tech Stack
+![technologies](https://skillicons.dev/icons?i=react,vite,tailwind,js,html,css&perline=10)
 
-### **Frontend**
-- **React 19** - Modern UI library
-- **Vite** - Fast build tool and dev server
-- **Tailwind CSS 4** - Utility-first CSS framework
-- **React Router DOM** - Client-side routing
-- **Axios** - HTTP client for API requests
-- **ECharts & echarts-for-react** - Interactive data visualization
-- **React Hot Toast** - Beautiful notifications
-- **Heroicons** - Beautiful SVG icons
+**Backend**
 
-### **Backend**
-- **FastAPI** - Modern Python web framework
-- **SQLAlchemy** - Python SQL toolkit and ORM
-- **SQLite** - Lightweight database (development)
-- **Pydantic** - Data validation using Python type hints
-- **BeautifulSoup4** - Web scraping library
-- **Requests** - HTTP library for Python
-- **PyPDF2** - PDF processing for data extraction
-- **Uvicorn** - ASGI web server
+![technologies](https://skillicons.dev/icons?i=fastapi,python,sqlite&perline=10)
 
-### **Development Tools**
-- **ESLint** - JavaScript linting
-- **PostCSS** - CSS processing
-- **Autoprefixer** - CSS vendor prefixing
+**Tools**
 
-## 📁 Project Structure
+![technologies](https://skillicons.dev/icons?i=npm,vscode,git,github,postman,bash,docker&perline=20)
 
-```
-stack.uni-repo/
-├── frontend/                 # React frontend application
-│   ├── src/
-│   │   ├── components/       # Reusable React components
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   └── UniversityCard.jsx
-│   │   ├── contexts/         # React context providers
-│   │   │   └── UniversityContext.jsx
-│   │   ├── pages/            # Main page components
-│   │   │   ├── HomePage.jsx
-│   │   │   ├── ExplorePage.jsx
-│   │   │   ├── InsightsPage.jsx
-│   │   │   ├── WizardPage.jsx
-│   │   │   ├── ComparePage.jsx
-│   │   │   └── UniversityDetailPage.jsx
-│   │   ├── services/         # API service layer
-│   │   │   └── api.js
-│   │   ├── App.jsx           # Main App component
-│   │   └── main.jsx          # Entry point
-│   ├── public/               # Static assets
-│   ├── package.json          # Dependencies and scripts
-│   └── vite.config.js        # Vite configuration
-├── backend/                  # FastAPI backend application
-│   ├── app/
-│   │   ├── routes/           # API route handlers
-│   │   │   ├── universities.py
-│   │   │   ├── wizard.py
-│   │   │   ├── insights.py
-│   │   │   └── scrape.py
-│   │   ├── models.py         # Database models
-│   │   ├── schemas.py        # Pydantic schemas
-│   │   ├── database.py       # Database configuration
-│   │   ├── crud.py           # Database operations
-│   │   ├── utils.py          # Utility functions
-│   │   └── main.py           # FastAPI app entry point
-│   └── requirements.txt      # Python dependencies
-├── README.md                 # Project documentation
-└── architecture.txt         # System architecture notes
-```
+**Data & Visualization**
 
-## 🚀 Quick Start
+![technologies](https://skillicons.dev/icons?i=echarts&perline=10)
+
+
+<h2> Quick Start</h2>
 
 ### Prerequisites
 - **Node.js 18+** and npm
 - **Python 3.8+** and pip
 - **Git**
 
-### 1. Clone the Repository
-```bash
-git clone <repository-url>
-cd stack.uni-repo
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone <repository-url>
+   cd stack.uni-repo
+   ```
 
-### 2. Start Backend
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-```
+2. **Start Backend**:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+   ```
 
-### 3. Start Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
+3. **Start Frontend**:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
 
-### 4. Initialize Data
-```bash
-curl -X POST http://127.0.0.1:8000/scrape/refresh
-```
+4. **Initialize Data**:
+   ```bash
+   curl -X POST http://127.0.0.1:8000/scrape/refresh
+   ```
 
-**🌐 Access the application at: http://localhost:5173**
+**Access at: http://localhost:5173**
 
-## 📦 Installation
+<h2> Installation</h2>
 
 ### Backend Setup
-
-1. **Navigate to backend directory:**
+1. Navigate to backend directory:
    ```bash
    cd backend
    ```
-
-2. **Create virtual environment (recommended):**
+2. Create virtual environment (recommended):
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-
-3. **Install dependencies:**
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Run the server:**
+4. Run the server:
    ```bash
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
    ```
 
 ### Frontend Setup
-
-1. **Navigate to frontend directory:**
+1. Navigate to frontend directory:
    ```bash
    cd frontend
    ```
-
-2. **Install dependencies:**
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-3. **Start development server:**
+3. Start development server:
    ```bash
    npm run dev
    ```
-
-4. **Build for production:**
+4. Build for production:
    ```bash
    npm run build
    ```
 
-## ⚙️ Configuration
+<h2> Configuration</h2>
 
 ### Backend Configuration
-
-**Database Configuration** (`backend/app/database.py`):
+**Database** (`backend/app/database.py`):
 ```python
 # Development (SQLite)
 DATABASE_URL = "sqlite:///./universities_db.sqlite"
-
 # Production (PostgreSQL example)
 # DATABASE_URL = "postgresql://user:password@host:port/database"
 ```
 
-**CORS Configuration** (`backend/app/main.py`):
+**CORS** (`backend/app/main.py`):
 ```python
 app.add_middleware(
     CORSMiddleware,
@@ -241,13 +154,12 @@ app.add_middleware(
 ```
 
 ### Frontend Configuration
-
-**API Configuration** (`frontend/src/services/api.js`):
+**API** (`frontend/src/services/api.js`):
 ```javascript
 const API_BASE_URL = 'http://127.0.0.1:8000';
 ```
 
-**Vite Configuration** (`frontend/vite.config.js`):
+**Vite** (`frontend/vite.config.js`):
 ```javascript
 export default defineConfig({
   plugins: [react(), tailwindcss()],
@@ -264,254 +176,172 @@ export default defineConfig({
 })
 ```
 
-## 📚 API Documentation
+<h2> API Documentation</h2>
 
-### Base URL
-```
-http://127.0.0.1:8000
-```
-
-### Authentication
-No authentication required for current endpoints.
+**Base URL**: `http://127.0.0.1:8000`
 
 ### Endpoints
+- **Universities**:
+  ```http
+  GET /universities/              # List all universities
+  GET /universities/{id}          # Get university by ID
+  ```
+- **Insights**:
+  ```http
+  GET /insights/regions          # Universities by region
+  GET /insights/types            # Universities by type
+  GET /insights/difficulty       # Universities by admission difficulty
+  ```
+- **Wizard**:
+  ```http
+  POST /wizard/recommendations   # Get personalized recommendations
+  ```
+- **Data Management**:
+  ```http
+  POST /scrape/                  # Add new universities
+  POST /scrape/refresh           # Refresh all university data
+  ```
 
-#### **Universities**
-```http
-GET /universities/              # List all universities
-GET /universities/{id}          # Get university by ID
-```
+**Interactive Docs**:
+- Swagger UI: `http://127.0.0.1:8000/docs`
+- ReDoc: `http://127.0.0.1:8000/redoc`
 
-#### **Insights**
-```http
-GET /insights/regions          # Universities by region
-GET /insights/types            # Universities by type (Public/Private)
-GET /insights/difficulty       # Universities by admission difficulty
-```
+<h2> University Data</h2>
 
-#### **Wizard**
-```http
-POST /wizard/recommendations   # Get personalized recommendations
-```
+- **30+ Universities**: Covers 12 public (TCU-regulated) and 18 private (NACTE and others) across 9 regions.
+- **Data Sources**: TCU, NACTE, and official university websites.
+- **Information**:
+  - Basic info (name, acronym, location, type)
+  - Financial details (fees)
+  - Academic programs (degrees, duration, difficulty)
+  - Facilities and campus resources
+  - Admission requirements and career prospects
+- **Sample Universities**:
+  - University of Dar es Salaam (UDSM)
+  - Sokoine University of Agriculture (SUA)
+  - Aga Khan University (AKU)
+  - Muhimbili University of Health and Allied Sciences (MUHAS)
+  - St. Augustine University of Tanzania (SAUT)
 
-#### **Data Management**
-```http
-POST /scrape/                  # Add new universities (incremental)
-POST /scrape/refresh           # Clear and refresh all university data
-```
+<h2>Development</h2>
 
-### Interactive API Docs
-- **Swagger UI**: http://127.0.0.1:8000/docs
-- **ReDoc**: http://127.0.0.1:8000/redoc
+### Backend
+- **Run with auto-reload**:
+  ```bash
+  uvicorn app.main:app --reload
+  ```
+- **Database Operations**:
+  ```bash
+  # Refresh data
+  curl -X POST http://127.0.0.1:8000/scrape/refresh
+  # Add universities
+  curl -X POST http://127.0.0.1:8000/scrape/
+  # Get insights
+  curl http://127.0.0.1:8000/insights/regions
+  ```
+- **Testing Endpoints**:
+  ```bash
+  # List universities
+  curl http://127.0.0.1:8000/universities/
+  # Get university
+  curl http://127.0.0.1:8000/universities/1
+  # Get recommendations
+  curl -X POST http://127.0.0.1:8000/wizard/recommendations \
+    -H "Content-Type: application/json" \
+    -d '{"region": "Dar es Salaam", "type": "Public"}'
+  ```
 
-## 🏛️ University Data
+### Frontend
+- **Development server**:
+  ```bash
+  npm run dev
+  ```
+- **Build for production**:
+  ```bash
+  npm run build
+  ```
+- **Preview production build**:
+  ```bash
+  npm run preview
+  ```
+- **Linting**:
+  ```bash
+  npm run lint
+  ```
 
-### Current Database
-- **30+ Tanzanian Universities**
-- **12 Public Universities** (TCU regulated)
-- **18 Private Universities** (NACTE and private institutions)
-- **9 Regions** covered across Tanzania
+<h2> Deployment</h2>
 
-### Data Sources
-- **Tanzania Commission for Universities (TCU)** - Public universities
-- **National Council for Technical and Vocational Education and Training (NACTE)** - Private institutions
-- **Official university websites and documentation**
+### Backend
+- **Production WSGI Server**:
+  ```bash
+  pip install gunicorn
+  gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
+  ```
+- **Environment Variables**:
+  ```bash
+  export DATABASE_URL="postgresql://user:pass@host:port/db"
+  export CORS_ORIGINS="https://yourdomain.com"
+  ```
 
-### University Information Includes:
-- Basic information (name, acronym, location, type)
-- Financial details (fee structures)
-- Academic programs (degrees, duration, difficulty)
-- Facilities and campus resources
-- Admission requirements
-- Career prospects for graduates
+### Frontend
+- **Build for production**:
+  ```bash
+  npm run build
+  ```
+- **Serve static files**:
+  ```bash
+  npm install -g serve
+  serve -s dist
+  ```
 
-### Sample Universities:
-- **University of Dar es Salaam (UDSM)** - Public
-- **Sokoine University of Agriculture (SUA)** - Public
-- **Aga Khan University (AKU)** - Private
-- **Muhimbili University of Health and Allied Sciences (MUHAS)** - Public
-- **St. Augustine University of Tanzania (SAUT)** - Private
+### Docker (Optional)
+- **Backend Dockerfile**:
+  ```dockerfile
+  FROM python:3.9
+  WORKDIR /app
+  COPY requirements.txt .
+  RUN pip install -r requirements.txt
+  COPY . .
+  CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+  ```
+- **Frontend Dockerfile**:
+  ```dockerfile
+  FROM node:18 AS build
+  WORKDIR /app
+  COPY package*.json ./
+  RUN npm install
+  COPY . .
+  RUN npm run build
+  FROM nginx:alpine
+  COPY --from=build /app/dist /usr/share/nginx/html
+  ```
 
-## 🧪 Development
+<h2> Contributing</h2>
 
-### Backend Development
-
-**Run with auto-reload:**
-```bash
-uvicorn app.main:app --reload
-```
-
-**Database Operations:**
-```bash
-# Refresh university data
-curl -X POST http://127.0.0.1:8000/scrape/refresh
-
-# Add new universities
-curl -X POST http://127.0.0.1:8000/scrape/
-
-# Get insights
-curl http://127.0.0.1:8000/insights/regions
-```
-
-**Testing API Endpoints:**
-```bash
-# List all universities
-curl http://127.0.0.1:8000/universities/
-
-# Get specific university
-curl http://127.0.0.1:8000/universities/1
-
-# Get recommendations (POST with JSON)
-curl -X POST http://127.0.0.1:8000/wizard/recommendations \
-  -H "Content-Type: application/json" \
-  -d '{"region": "Dar es Salaam", "type": "Public"}'
-```
-
-### Frontend Development
-
-**Development server:**
-```bash
-npm run dev
-```
-
-**Build for production:**
-```bash
-npm run build
-```
-
-**Preview production build:**
-```bash
-npm run preview
-```
-
-**Linting:**
-```bash
-npm run lint
-```
-
-### Common Development Tasks
-
-**Adding New Universities:**
-1. Update the university data in `backend/app/routes/scrape.py`
-2. Run the refresh endpoint: `POST /scrape/refresh`
-3. Verify data in frontend
-
-**Adding New Features:**
-1. Create backend endpoint in appropriate route file
-2. Add API service method in `frontend/src/services/api.js`
-3. Update frontend components to use new functionality
-
-## 🚀 Deployment
-
-### Backend Deployment
-
-**Production WSGI Server:**
-```bash
-pip install gunicorn
-gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
-```
-
-**Environment Variables:**
-```bash
-export DATABASE_URL="postgresql://user:pass@host:port/db"
-export CORS_ORIGINS="https://yourdomain.com"
-```
-
-### Frontend Deployment
-
-**Build for production:**
-```bash
-npm run build
-```
-
-**Serve static files:**
-```bash
-npm install -g serve
-serve -s dist
-```
-
-### Docker Deployment (Optional)
-
-**Backend Dockerfile:**
-```dockerfile
-FROM python:3.9
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
-**Frontend Dockerfile:**
-```dockerfile
-FROM node:18 AS build
-WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-```
-
-## 🤝 Contributing
-
-### Getting Started
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+3. Make changes and test thoroughly
+4. Submit a pull request
+5. Follow **Code Style**: ESLint (frontend), PEP 8 (backend), and descriptive commit messages.
 
-### Code Style
-- **Frontend**: Follow ESLint configuration
-- **Backend**: Follow PEP 8 Python style guide
-- **Commits**: Use descriptive commit messages
+**Adding Universities**:
+- Update `backend/app/routes/scrape.py`
+- Run `POST /scrape/refresh`
+- Verify data in frontend
 
-### Adding Universities
-To add more universities to the database:
-1. Update the data arrays in `backend/app/routes/scrape.py`
-2. Ensure data follows the existing schema
-3. Test with the refresh endpoint
+<h2> License</h2>
 
-## 📄 License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
+<h2>Support</h2>
 
-## 🆘 Support
+- **Frontend not connecting**: Check backend port (8000), CORS, and API base URL.
+- **Database errors**: Verify SQLite permissions and run `POST /scrape/refresh`.
+- **Empty university list**: Check backend logs and run scraper.
+- **Help**: Review API docs at `http://127.0.0.1:8000/docs` or create an issue.
 
-### Common Issues
 
-**Frontend not connecting to backend:**
-- Ensure backend is running on port 8000
-- Check CORS configuration in backend
-- Verify API base URL in frontend configuration
-
-**Database errors:**
-- Check database file permissions
-- Ensure SQLite is available
-- Run database refresh: `POST /scrape/refresh`
-
-**Empty university list:**
-- Run the data scraper: `POST /scrape/refresh`
-- Check backend logs for errors
-- Verify database connection
-
-### Getting Help
-- Check the [API documentation](http://127.0.0.1:8000/docs)
-- Review the project structure above
-- Create an issue for bugs or feature requests
-
-## 🌟 Acknowledgments
-
-- **Tanzania Commission for Universities (TCU)** - Official university data source
-- **National Council for Technical and Vocational Education and Training (NACTE)** - Private institution data
-- **React Community** - Frontend framework and ecosystem
-- **FastAPI Community** - Backend framework and tools
-
----
-
-**Built with ❤️ for Tanzanian students and educators**
-
-*Empowering educational choices through technology* 🇹🇿
+<h2>☕️ Support the Project</h2>
+<p>
+    <a href="https://www.buymeacoffee.com/zuck30" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="30px" ></a>
+</p>
