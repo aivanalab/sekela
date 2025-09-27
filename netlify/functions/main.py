@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import universities, wizard, insights, scrape
-from app.database import Base, engine
+from routes import universities, wizard, insights, scrape
+from database import Base, engine
 
 app = FastAPI(title="Tanzania University Explorer Backend (SekelaAPI)")
 

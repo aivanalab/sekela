@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 import requests
 from bs4 import BeautifulSoup
-from .. import database, models
+import database, models
 
 router = APIRouter(prefix="/scrape", tags=["Scraper"])
 
