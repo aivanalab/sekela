@@ -606,6 +606,14 @@ def scrape_universities(db: Session = Depends(get_db)):
     print(message)
     return {"message": message}
 
+@router.get("/seed")
+def seed_database(db: Session = Depends(get_db)):
+    """
+    A temporary, one-time endpoint to easily seed the database by visiting a URL.
+    This should be removed after the initial data population.
+    """
+    return refresh_universities(db)
+
 @router.post("/refresh")
 def refresh_universities(db: Session = Depends(get_db)):
     """
