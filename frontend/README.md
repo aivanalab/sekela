@@ -343,3 +343,12 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 <p>
     <a href="https://www.buymeacoffee.com/zuck30" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" height="30px" ></a>
 </p>
+
+<h2> 
+TODO:  features
+
+- Expand to High schools, secondary schools.
+- write an algorithm which is better for recommendations
+- Or use OpenAi api in wizard and recommendations
+- Find a way to work with this db
+</h2>
