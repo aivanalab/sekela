@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { EnvelopeIcon, PhoneIcon, MapPinIcon, HeartIcon } from '@heroicons/react/24/outline';
-import kasukuLogo from '../assets/kasuku.png';
+import kasukuLogo from '../assets/sekelafindr.png';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -29,7 +29,7 @@ export default function Footer() {
             <Link to="/" className="flex items-center">
               <img 
                 src={kasukuLogo} 
-                alt="kasuku Logo" 
+                alt="sekelafindr logo" 
                 className="h-10 w-auto transition-transform duration-300 hover:scale-105"
                 onError={(e) => (e.target.src = 'https://via.placeholder.com/150x50?text=kasuku')}
               />
