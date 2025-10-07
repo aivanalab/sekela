@@ -49,11 +49,11 @@ export default function Navbar() {
               >
                 <div className="w-8 h-8">
                   <img 
-                    src="/src/assets/kasuku.png" 
+                    src="/frontend/src/assets/kasuku.png" 
                     alt="kasuku Logo" 
                     className="w-full h-full object-contain transition-opacity duration-200 group-hover:opacity-80"
                     onError={(e) => {
-                      e.target.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><circle cx="16" cy="16" r="14" fill="%23b91c1c"/><text x="16" y="21" text-anchor="middle" fill="white" font-size="14" font-family="Arial" font-weight="bold">K</text></svg>';
+                      e.target.src = '/frontend/src/assets/kasuku.png';
                     }}
                   />
                 </div>
