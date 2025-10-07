@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useUniversity } from '../contexts/UniversityContext';
-import kasukuLogo from '../assets/kasuku.png';
+import kasukuLogo from '../assets/sekelafindr.png';
 import { HomeIcon, MagnifyingGlassIcon, ScaleIcon, LightBulbIcon, SparklesIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function Navbar() {
@@ -51,7 +51,7 @@ export default function Navbar() {
                 <div className="w-8 h-8">
                <img 
                              src={kasukuLogo} 
-                             alt="kasuku Logo" 
+                             alt="sekelafindr logo" 
                              className="h-10 w-auto transition-transform duration-300 hover:scale-105"
                              onError={(e) => (e.target.src = 'https://via.placeholder.com/150x50?text=kasuku')}
                            />
