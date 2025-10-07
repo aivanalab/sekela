@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useUniversity } from '../contexts/UniversityContext';
+import kasukuLogo from '../assets/kasuku.png';
 import { HomeIcon, MagnifyingGlassIcon, ScaleIcon, LightBulbIcon, SparklesIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function Navbar() {
@@ -48,14 +49,12 @@ export default function Navbar() {
                 className="flex items-center space-x-2 group"
               >
                 <div className="w-8 h-8">
-                  <img 
-                    src="/frontend/src/assets/kasuku.png" 
-                    alt="kasuku Logo" 
-                    className="w-full h-full object-contain transition-opacity duration-200 group-hover:opacity-80"
-                    onError={(e) => {
-                      e.target.src = '/frontend/src/assets/kasuku.png';
-                    }}
-                  />
+               <img 
+                             src={kasukuLogo} 
+                             alt="kasuku Logo" 
+                             className="h-10 w-auto transition-transform duration-300 hover:scale-105"
+                             onError={(e) => (e.target.src = 'https://via.placeholder.com/150x50?text=kasuku')}
+                           />
                 </div>
 
               </NavLink>
