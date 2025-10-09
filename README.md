@@ -11,7 +11,7 @@
 
 
 ![Banner](https://capsule-render.vercel.app/api?type=venom&height=200&color=0:43cea2,100:185a9d&text=%20Sekela%&textBg=false&desc=(Empowering%20Education%20Choices)&descAlign=79&fontAlign=50&descAlignY=70&fontColor=f7f5f5)
-<p align="center">A comprehensive web application for exploring 30+ universities in Tanzania. Discover, compare, and make informed decisions with a smart wizard, interactive charts, and detailed profiles!</p>
+<p align="center">A comprehensive software for exploring universities in Tanzania. Discover, compare, and make informed decisions with a smart wizard, interactive charts, and detailed universities profiles!</p>
 
 <h3>Quick Links</h3>
 
@@ -23,21 +23,21 @@
 <br>
 
 <ul>
-    <li>💻 Explore 30+ Tanzanian Universities</li>
+    <li>💻 Explore more than 30 Tanzanian Universities</li>
     <li>🔭 Smart Wizard for Personalized Recommendations</li>
     <li>👨‍💻 Built with React, FastAPI, and Tailwind CSS</li>
 </ul>
 
 <h2> Features</h2>
 
-- **Homepage**: Engaging landing page with hero section, quick stats, and featured universities.
+- **Homepage**: Hero , quick stats, and featured universities.
 - **University Explorer**: Browse and filter universities by region, type, fees, and difficulty. Includes detailed profiles and comparison tools.
 - **Data Insights**: Interactive charts for university distribution, regional analysis, and admission difficulty using ECharts.
 - **Smart Wizard**: Personalized recommendations via a step-by-step preference collection and intelligent matching algorithm.
 - **University Comparison**: Compare up to 4 universities side-by-side with detailed program and fee analysis.
 - **Detailed Profiles**: Comprehensive university info, including programs, facilities, admission requirements, and fees.
 
-<h2> Tech Stack</h2>
+<h2> Technologies </h2>
 
 **Frontend**
 
@@ -66,7 +66,7 @@
 1. **Clone the Repository**:
    ```bash
    git clone <repository-url>
-   cd stack.uni-repo
+   cd sekela
    ```
 
 2. **Start Backend**:
@@ -206,7 +206,7 @@ export default defineConfig({
 
 <h2> University Data</h2>
 
-- **30+ Universities**: Covers 12 public (TCU-regulated) and 18 private (NACTE and others) across 9 regions.
+- **More than 30 Universities**: Covers 12 public (TCU-regulated) and 18 private (NACTE and others) across 9 regions.
 - **Data Sources**: TCU, NACTE, and official university websites.
 - **Information**:
   - Basic info (name, acronym, location, type)
@@ -215,6 +215,7 @@ export default defineConfig({
   - Facilities and campus resources
   - Admission requirements and career prospects
 - **Sample Universities**:
+  - University of Dodoma 
   - University of Dar es Salaam (UDSM)
   - Sokoine University of Agriculture (SUA)
   - Aga Khan University (AKU)
