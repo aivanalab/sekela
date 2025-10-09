@@ -30,7 +30,7 @@ export default function Navbar() {
     { to: '/explore', icon: MagnifyingGlassIcon, label: 'Explore' },
     { to: '/compare', icon: ScaleIcon, label: 'Compare', badge: comparisonList.length },
     { to: '/insights', icon: LightBulbIcon, label: 'Insights' },
-    { to: '/wizard', icon: SparklesIcon, label: 'Find Your Fit' }
+    { to: '/wizard', icon: SparklesIcon, label: 'Finder' }
   ];
 
   return (
