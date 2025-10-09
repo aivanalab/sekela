@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from routes import universities, wizard, insights, scrape
 from database import Base, engine
 
-app = FastAPI(title="Tanzania University Explorer Backend (SekelaAPI)")
+app = FastAPI(title="Sekelafinder api")
 
 @app.on_event("startup")
 def on_startup():
