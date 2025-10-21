@@ -40,7 +40,7 @@ export default function HomePage() {
     {
       icon: AcademicCapIcon,
       title: "Smart University Discovery",
-      description: "AI-powered recommendations based on your academic goals and preferences"
+      description: "Algorithimic recommendations based on your academic goals and preferences"
     },
     {
       icon: ChartBarIcon,
@@ -57,7 +57,7 @@ export default function HomePage() {
   const stats = [
     { label: "Universities", value: "50+", icon: AcademicCapIcon },
     { label: "Programs", value: "500+", icon: BookOpenIcon },
-    { label: "Students Helped", value: "10K+", icon: UsersIcon },
+    { label: "Students Helped", value: "5K", icon: UsersIcon },
     { label: "Regions Covered", value: "26", icon: MapPinIcon }
   ];
 
